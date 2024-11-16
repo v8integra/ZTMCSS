@@ -60,5 +60,27 @@
     <!-- content editable and spell check-->
     <p contenteditable="true" spellcheck="true">Some content that can be edited by a user</p>
 
+    <!-- type, value, placeholder -->
+    <label for="username">Username</label>
+    <input type="text" id="username" value="" placeholder="Enter your username">
+    <br />
+    
+    <!-- email input -->
+    <label for="email">Email</label>
+    <input type="email" id="email" placeholder="Enter your email" autocomplete="false">
+
+    <!-- disabled and readonly attributes -->
+    <input type="text" placeholder="This input is disabled" disabled>
+    <input type="text" placeholder="This input is disabled" value="Test Value" readonly>
+
+    <!-- checkbox -->
+    <input type="checkbox">
+    <input type="checkbox" checked>
+
+    <!-- selected attribute -->
+    <select name="options" id="optionSelect">
+      <option value="option1" selected>Option 1</option> <!-- selected as default -->
+      <option value="option2">Option 2</option>
+    </select>
   </body>
 </html>
