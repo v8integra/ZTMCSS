@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic HTML page</title>
+  </head>
+  <body>
+    <!-- Basic text Input -->
+    <input type="text" name="username" placeholder="Enter your username">
+    <!-- text Area -->
+    <textarea name="comments" id="comments" cols="30" rows="4"></textarea>
+    <!-- Number Input -->
+    <input type="number" bane="age" min="10" max="99">
+    <!-- Email, URL, Telephone -->
+    <input type="email" name="email" placeholder="youremail@example.com">
+    <input type="url" name="website" placeholder="https://example.com">
+    <input type="tel" name="phone" placeholder="555-555-5555">
+
+    <!-- Date, Time, Range -->
+    <input type="date" name="dob">
+    <input type="time" name="appointmentTime">
+    <input type="range" name="rating" min="0" max="10" value="4">
+
+    <!-- Search -->
+    <input type="search" name="search" placeholder="Search...">
+
+    <!-- File and Color -->
+    <input type="file" name="profilePicture" accept="image/*">
+    <input type="color" name="favoriteColor">
+
+    <!-- Radio -->
+    <input type="radio" name="vehicle" value="car">
+    <input type="radio" name="vehicle" value="truck">
+
+    <!-- Checkbox -->
+    <input type="checkbox" name="vegetables" value="carrot">
+    <input type="checkbox" name="vegetables" value="potato">
+
+    <!-- Password -->
+    <input type="password" name="password" minlength="8" required>
+
+    <!-- Submit and Reset -->
+    <input type="submit" value="Submit Me" onclick="alert('Submitted')">
+    <input type="reset" value="Reset Me" onclick="alert('Fields reset')">
+  </body>
+</html>
